@@ -1,3 +1,17 @@
+# Ignore all .nc files
+*.nc
+
+# Ignore cache files
+.*cache*
+
+# Ignore configs
+.gitpod.yml
+configs.yml
+configs.yaml*
+
+# Ignore notebooks
+*.ipynb
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
